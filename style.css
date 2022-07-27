@@ -9,6 +9,24 @@
 /* .banner-caption{
     bottom: 30%;
 } */
+.text-custom-primary{
+    color: #7FBF50;
+}
+.bg-custom-primary{
+    background-color: #7FBF50;
+}
 .banner-caption h1{
     font-size: 3rem;
+}
+.btn-custom-primary{
+    background-color: #7FBF50;
+    color:white;
+}
+.btn-custom-secondary{
+    background-color: white;
+    color:#7FBF50;
+}
+.btn-custom-secondary:hover{
+    color:white;
+    border-color: white;
 }
