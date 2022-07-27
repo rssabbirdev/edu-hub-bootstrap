@@ -2,3 +2,13 @@
     flex:3;
     justify-content: center;
 }
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+/* .banner-caption{
+    bottom: 30%;
+} */
+.banner-caption h1{
+    font-size: 3rem;
+}
