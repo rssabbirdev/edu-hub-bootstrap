@@ -1,3 +1,10 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-weight: 600;
+}
 .top-nav{
     flex:3;
     justify-content: center;
