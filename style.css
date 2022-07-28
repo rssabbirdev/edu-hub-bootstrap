@@ -30,17 +30,17 @@ body{
     color:white;
     border-color: white;
 }
-.testimonial .carousel-control-next-icon{
+#testimonial .carousel-control-next-icon{
     background-image: none;
 }
-.testimonial .carousel-control-prev-icon {
+#testimonial .carousel-control-prev-icon {
     background-image: none;
 }
-.testimonial .carousel-control-next{
+#testimonial .carousel-control-next{
     width: 40px;
     right: -20px;
 }
-.testimonial .carousel-control-prev{
+#testimonial .carousel-control-prev{
     width:40px;
     left: -20px;
 }
