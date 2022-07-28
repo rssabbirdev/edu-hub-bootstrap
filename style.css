@@ -27,12 +27,6 @@ body {
     color: white;
     border-color: white;
 }
-/* -------------------------------------
-Testimonial Arrow Button Modify CSS Style
--------------------------------------------- */
-#testimonial button{
-    background-image: none;
-}
 /*-------------------------
  FAQ Active Item CSS Style 
  ----------------------------*/
