@@ -1,7 +1,7 @@
 body{
     font-family: 'Inter', sans-serif;
 }
-.navbar-brand{
+.logo{
     font-family: 'Edu QLD Beginner', cursive;
     font-weight: 600;
 }
@@ -9,13 +9,6 @@ body{
     flex:3;
     justify-content: center;
 }
-.banner{
-    position: relative;
-    overflow: hidden;
-}
-/* .banner-caption{
-    bottom: 30%;
-} */
 .text-custom-primary{
     color: #7FBF50;
 }
@@ -37,17 +30,17 @@ body{
     color:white;
     border-color: white;
 }
-.carousel-control-next-icon{
+.testimonial .carousel-control-next-icon{
     background-image: none;
 }
-.carousel-control-prev-icon {
+.testimonial .carousel-control-prev-icon {
     background-image: none;
 }
-.carousel-control-next{
+.testimonial .carousel-control-next{
     width: 40px;
     right: -20px;
 }
-.carousel-control-prev{
+.testimonial .carousel-control-prev{
     width:40px;
     left: -20px;
 }
