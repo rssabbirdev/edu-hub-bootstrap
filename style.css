@@ -1,39 +1,36 @@
-body{
+/* ----------------------------------
+Utility CSS OR Global CSS Style 
+-----------------------------------*/
+body {
     font-family: 'Inter', sans-serif;
 }
-.logo{
+.logo {
     font-family: 'Edu QLD Beginner', cursive;
     font-weight: 600;
 }
-.top-nav{
-    flex:3;
-    justify-content: center;
-}
-.text-custom-primary{
+.text-custom-primary {
     color: #7FBF50;
 }
-.bg-custom-primary{
+.bg-custom-primary {
     background-color: #7FBF50;
 }
-.banner-caption h1{
-    font-size: 3rem;
-}
-.btn-custom-primary{
+.btn-custom-primary {
     background-color: #7FBF50;
-    color:white;
+    color: white;
 }
-.btn-custom-secondary{
+.btn-custom-secondary {
     background-color: white;
-    color:#7FBF50;
+    color: #7FBF50;
 }
-.btn-custom-secondary:hover{
-    color:white;
+
+.btn-custom-secondary:hover {
+    color: white;
     border-color: white;
 }
-#testimonial .carousel-control-next-icon{
-    background-image: none;
-}
-#testimonial .carousel-control-prev-icon {
+/* -------------------------------------
+Testimonial Arrow Button Modify CSS Style
+-------------------------------------------- */
+#testimonial button{
     background-image: none;
 }
 #testimonial .carousel-control-next{
@@ -43,4 +40,16 @@ body{
 #testimonial .carousel-control-prev{
     width:40px;
     left: -20px;
+}
+/*-------------------------
+ FAQ Active Item CSS Style 
+ ----------------------------*/
+.accordion-button:not(.collapsed){
+    background-color:#F4FAFD ;
+    color:#7FBF50;
+    
+}
+.accordion-button:focus{
+    box-shadow:0px 0px 2px 4px #7ebf509b;
+
 }
